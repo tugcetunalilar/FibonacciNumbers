@@ -1,0 +1,15 @@
+i=0
+Fibnum=[1]
+Fibevensum=0
+
+while (Fibnum[i])<4000000:
+  Fibnum.append((Fibnum[i-1])+(Fibnum[i]))
+  if (Fibnum[i])%2==0:
+    Fibevensum=Fibevensum+(Fibnum[i])
+  i=i+1
+  
+  
+print (i)
+print (Fibnum[i])
+print (Fibnum[i-1])
+print (Fibevensum)
